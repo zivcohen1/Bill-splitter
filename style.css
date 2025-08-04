@@ -146,6 +146,17 @@ button {
     color: #27ae60;
     font-weight: bold;
 }
+@media (max-width: 600px) {
+  input, select, button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .summary {
     background: #e8f4f8;
